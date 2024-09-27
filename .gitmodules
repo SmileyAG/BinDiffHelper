@@ -1,3 +1,4 @@
 [submodule "binexport"]
 	path = binexport
-	url = https://github.com/google/binexport.git
+	url = https://github.com/SmileyAG/binexport.git
+	branch = test
