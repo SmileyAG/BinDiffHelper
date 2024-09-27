@@ -52,6 +52,9 @@ else {
 //    dependsOn(":BinExport:generateProto")
 //}
 
+buildExtension.exclude '.github/**'
+buildExtension.exclude 'binexport/**'
+
 tasks.named("copyDependencies").configure {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
